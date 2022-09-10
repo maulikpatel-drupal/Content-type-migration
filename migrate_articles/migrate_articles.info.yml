@@ -1,0 +1,9 @@
+type: module
+name: 'Migrate articles'
+description: 'Migrate D7 articles to D9'
+core_version_requirement: ^8.8 || ^9
+dependencies: 
+ - drupal:migrate
+ - drupal:migrate_plus
+ - drupal:migrate_tools
+ - drupal:migrate_drupal
